@@ -22,6 +22,9 @@ O menu do board inclui as seguintes opções de gerenciamento de cards:
 
 Essa estrutura e funcionalidade ajudam a organizar e monitorar o progresso de suas tarefas de maneira clara e eficiente.
 
+### Vamos ultilizar Migrations com a ferramenta Liquibase
+Para gestão de alterações em bancos de dados vamos atualizar para modificar o esquema de um banco de dados de maneira controlada e segura, garantindo consistência e rastreabilidade das mudanças.
+
 ---
 
 ## Diagrama da Solução
