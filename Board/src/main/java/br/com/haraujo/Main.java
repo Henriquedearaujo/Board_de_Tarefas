@@ -1,6 +1,7 @@
 package br.com.haraujo;
 
 import br.com.haraujo.persistence.migration.MigrationStrategy;
+import br.com.haraujo.ui.MainMenu;
 
 import java.sql.SQLException;
 
@@ -12,5 +13,6 @@ public class Main {
         try(var connection = getConnection()){
             new MigrationStrategy(connection).executeMigration();
         }
+        new MainMenu().execute();
     }
 }

@@ -1,6 +1,7 @@
 package br.com.haraujo.persistence.entity;
 
 import lombok.Data;
+import lombok.ToString;
 
 @Data
 public class BoardColumnEntity {
